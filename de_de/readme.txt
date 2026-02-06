@@ -3,11 +3,12 @@ Contributors: Bueltge
 Donate link: https://www.paypal.me/FrankBueltge
 Tags: german, ascii, permalink, umlaut, upload
 Requires at least: 3.5
-Tested up to: 6.6
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 Replace non-ASCII characters for installs that set the German language as a primary language.
 
@@ -34,11 +35,11 @@ Diese Sprach-_DropIn_ ersetzt diverse Zeichen durch entprechende Strings in den 
  * Support, Fehler, Ergänzen bitte via [GitHub](https://github.com/bueltge/de-DE/)
 
 = Support und Unterstützung =
-Das Plugin liegt auf [GitHub](https://wordpress.org/plugins/de_de/) und jede Hilfe ist gern gesehen.
+Das Plugin liegt auf [GitHub](https://github.com/bueltge/de-DE) und jede Hilfe ist gern gesehen.
 
 == Installation ==
 
- * PHP 5.6 (aktiv getestet unter php 7.2)
+ * PHP 5.6 (aktiv getestet unter php 8.3)
  * WordPress 3.5, (aktiv getestet in der letzen stabilen Version)
  * Optional: [Normalizer class](http://php.net/manual/de/class.normalizer.php)
 
@@ -53,6 +54,9 @@ Das Plugin liegt auf [GitHub](https://wordpress.org/plugins/de_de/) und jede Hil
  * Das Plugin im Administrationsbereich --> Plugins aktivieren
  
 == Changelog ==
+= 1.0.3 (2026-01-26) =
+* Added isUtf8() helper to handle deprecated seems_utf8 #23, Probs @WebKinect
+
 = 1.0.2 (2024-09-24) =
 * Updated encoding / decoding via mb_convert_encoding, [#20](https://github.com/bueltge/de-DE/pull/20)
 
